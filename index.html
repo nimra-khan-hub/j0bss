@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobAlerts - Find Your Dream Job</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>JobAlerts</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Find Your Dream Job</h1>
+            <p>Get instant alerts for the latest job opportunities</p>
+            <div class="search-container">
+                <input type="text" placeholder="Search jobs...">
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="featured-jobs">
+            <h2>Featured Jobs</h2>
+            <div class="job-grid">
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Software Engineer</h3>
+                        <span class="company">Google</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Mountain View, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <a href="https://www.indeed.com/jobs?q=Software+Engineer&l=Mountain+View%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Data Scientist</h3>
+                        <span class="company">Amazon</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Seattle, WA</p>
+                    <p class="salary">$130k - $180k</p>
+                    <a href="https://www.indeed.com/jobs?q=Data+Scientist&l=Seattle%2C+WA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Product Manager</h3>
+                        <span class="company">Microsoft</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Redmond, WA</p>
+                    <p class="salary">$140k - $190k</p>
+                    <a href="https://www.indeed.com/jobs?q=Product+Manager&l=Redmond%2C+WA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Frontend Developer</h3>
+                        <span class="company">Meta</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Menlo Park, CA</p>
+                    <p class="salary">$120k - $170k</p>
+                    <a href="https://www.indeed.com/jobs?q=Frontend+Developer&l=Menlo+Park%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>DevOps Engineer</h3>
+                        <span class="company">Netflix</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Los Gatos, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <a href="https://www.indeed.com/jobs?q=DevOps+Engineer&l=Los+Gatos%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Machine Learning Engineer</h3>
+                        <span class="company">Apple</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Cupertino, CA</p>
+                    <p class="salary">$160k - $210k</p>
+                    <a href="https://www.indeed.com/jobs?q=Machine+Learning+Engineer&l=Cupertino%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Full Stack Developer</h3>
+                        <span class="company">Salesforce</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$130k - $180k</p>
+                    <a href="https://www.indeed.com/jobs?q=Full+Stack+Developer&l=San+Francisco%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Cloud Architect</h3>
+                        <span class="company">AWS</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Seattle, WA</p>
+                    <p class="salary">$170k - $220k</p>
+                    <a href="https://www.indeed.com/jobs?q=Cloud+Architect&l=Seattle%2C+WA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Security Engineer</h3>
+                        <span class="company">Cisco</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Jose, CA</p>
+                    <p class="salary">$140k - $190k</p>
+                    <a href="https://www.indeed.com/jobs?q=Security+Engineer&l=San+Jose%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Mobile Developer</h3>
+                        <span class="company">Uber</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$135k - $185k</p>
+                    <a href="https://www.indeed.com/jobs?q=Mobile+Developer&l=San+Francisco%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Backend Engineer</h3>
+                        <span class="company">Twitter</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <a href="https://www.indeed.com/jobs?q=Backend+Engineer&l=San+Francisco%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>AI Research Scientist</h3>
+                        <span class="company">OpenAI</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$180k - $250k</p>
+                    <a href="https://www.indeed.com/jobs?q=AI+Research+Scientist&l=San+Francisco%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>UX Designer</h3>
+                        <span class="company">Adobe</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Jose, CA</p>
+                    <p class="salary">$120k - $170k</p>
+                    <a href="https://www.indeed.com/jobs?q=UX+Designer&l=San+Jose%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Systems Engineer</h3>
+                        <span class="company">Intel</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Santa Clara, CA</p>
+                    <p class="salary">$130k - $180k</p>
+                    <a href="https://www.indeed.com/jobs?q=Systems+Engineer&l=Santa+Clara%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Blockchain Developer</h3>
+                        <span class="company">Coinbase</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <a href="https://www.indeed.com/jobs?q=Blockchain+Developer&l=San+Francisco%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Game Developer</h3>
+                        <span class="company">Epic Games</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Cary, NC</p>
+                    <p class="salary">$120k - $170k</p>
+                    <a href="https://www.indeed.com/jobs?q=Game+Developer&l=Cary%2C+NC&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>QA Engineer</h3>
+                        <span class="company">Oracle</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Austin, TX</p>
+                    <p class="salary">$110k - $160k</p>
+                    <a href="https://www.indeed.com/jobs?q=QA+Engineer&l=Austin%2C+TX&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Data Engineer</h3>
+                        <span class="company">LinkedIn</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Sunnyvale, CA</p>
+                    <p class="salary">$140k - $190k</p>
+                    <a href="https://www.indeed.com/jobs?q=Data+Engineer&l=Sunnyvale%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>iOS Developer</h3>
+                        <span class="company">Airbnb</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <a href="https://www.indeed.com/jobs?q=iOS+Developer&l=San+Francisco%2C+CA&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Android Developer</h3>
+                        <span class="company">Spotify</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                    <p class="salary">$135k - $185k</p>
+                    <a href="https://www.indeed.com/jobs?q=Android+Developer&l=New+York%2C+NY&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Cloud Engineer</h3>
+                        <span class="company">IBM</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Armonk, NY</p>
+                    <p class="salary">$130k - $180k</p>
+                    <a href="https://www.indeed.com/jobs?q=Cloud+Engineer&l=Armonk%2C+NY&sc=0kf%3Aattr(FC32)%3B" target="_blank" class="apply-btn">Apply Now</a>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Site Reliability Engineer</h3>
+                        <span class="company">Dropbox</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Technical Lead</h3>
+                        <span class="company">Slack</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$160k - $210k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Research Engineer</h3>
+                        <span class="company">DeepMind</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Mountain View, CA</p>
+                    <p class="salary">$170k - $220k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Software Architect</h3>
+                        <span class="company">VMware</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Palo Alto, CA</p>
+                    <p class="salary">$180k - $230k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Embedded Systems Engineer</h3>
+                        <span class="company">Tesla</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Austin, TX</p>
+                    <p class="salary">$140k - $190k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Computer Vision Engineer</h3>
+                        <span class="company">Waymo</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Mountain View, CA</p>
+                    <p class="salary">$160k - $210k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Backend Developer</h3>
+                        <span class="company">Stripe</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Frontend Engineer</h3>
+                        <span class="company">Pinterest</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$140k - $190k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Data Analyst</h3>
+                        <span class="company">Facebook</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Menlo Park, CA</p>
+                    <p class="salary">$120k - $170k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Network Engineer</h3>
+                        <span class="company">Juniper Networks</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Sunnyvale, CA</p>
+                    <p class="salary">$130k - $180k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Mobile App Developer</h3>
+                        <span class="company">Snap Inc</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Santa Monica, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Software Developer</h3>
+                        <span class="company">PayPal</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Jose, CA</p>
+                    <p class="salary">$135k - $185k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Cloud Solutions Architect</h3>
+                        <span class="company">Microsoft Azure</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Redmond, WA</p>
+                    <p class="salary">$170k - $220k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Full Stack Developer</h3>
+                        <span class="company">GitHub</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Security Analyst</h3>
+                        <span class="company">Palo Alto Networks</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Santa Clara, CA</p>
+                    <p class="salary">$140k - $190k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>DevOps Engineer</h3>
+                        <span class="company">Docker</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Machine Learning Engineer</h3>
+                        <span class="company">NVIDIA</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Santa Clara, CA</p>
+                    <p class="salary">$160k - $210k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Backend Developer</h3>
+                        <span class="company">Twitch</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Frontend Developer</h3>
+                        <span class="company">Discord</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$140k - $190k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Data Scientist</h3>
+                        <span class="company">Twitter</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Software Engineer</h3>
+                        <span class="company">Lyft</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Cloud Engineer</h3>
+                        <span class="company">DigitalOcean</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                    <p class="salary">$140k - $190k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Full Stack Developer</h3>
+                        <span class="company">Shopify</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Security Engineer</h3>
+                        <span class="company">Cloudflare</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>DevOps Engineer</h3>
+                        <span class="company">Datadog</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                    <p class="salary">$145k - $195k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Machine Learning Engineer</h3>
+                        <span class="company">Uber AI</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$160k - $210k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Backend Developer</h3>
+                        <span class="company">Square</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Frontend Developer</h3>
+                        <span class="company">Asana</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$140k - $190k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Data Engineer</h3>
+                        <span class="company">Snowflake</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Mateo, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Software Engineer</h3>
+                        <span class="company">DoorDash</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Cloud Architect</h3>
+                        <span class="company">MongoDB</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                    <p class="salary">$160k - $210k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Full Stack Developer</h3>
+                        <span class="company">Notion</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Security Engineer</h3>
+                        <span class="company">Okta</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>DevOps Engineer</h3>
+                        <span class="company">HashiCorp</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Machine Learning Engineer</h3>
+                        <span class="company">Cruise</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$160k - $210k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Backend Developer</h3>
+                        <span class="company">Plaid</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$150k - $200k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Frontend Developer</h3>
+                        <span class="company">Figma</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$145k - $195k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Data Scientist</h3>
+                        <span class="company">Instacart</span>
+                    </div>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                    <p class="salary">$140k - $190k</p>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-bell"></i>
+                    <h3>Instant Alerts</h3>
+                    <p>Get notified immediately when new jobs match your criteria</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-filter"></i>
+                    <h3>Smart Filters</h3>
+                    <p>Find exactly what you're looking for with our advanced filters</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Verified Jobs</h3>
+                    <p>All jobs are verified to ensure legitimacy</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>JobAlerts</h3>
+                <p>Your trusted partner in job hunting</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 JobAlerts. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
